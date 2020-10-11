@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --fontfamily-head : cursive;
+    --fontfamily-body:Arial, Helvetica, sans-serif;
+    --fontsize-head:1.3rem;
+}
+
+body{
+    background-image: url("./house5.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec1{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontfamily-head);
+    height: 3rem;
+    background-color: yellow;
+    box-shadow: 4px 6px 8px gray;
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 100;
+}
+
+.container1{
+    position: absolute;
+    left: 4%;
+    font-size: var(--fontsize-head);
+}
+
+.container3{
+    position: absolute;
+    right: 4%;
+    font-size: var(--fontsize-head);
+}
+
+.navul {
+   list-style-type: none;
+  
+}
+
+.navul li{
+    float: left;
+    padding: 1rem;
+    
+}
+
+ @media screen and (max-width:630px){
+
+    body{
+        background-image: url(./House2.webp);
+        background-size: initial;
+        background-repeat: no-repeat;
+    
+    }
+   .container1,.container3 {
+       display: none;
+   }
+
+   .container2{
+       position: absolute;
+       left:10%;
+   }
+
+ #butmen{
+     margin-top: 5.5rem;
+   background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+   width: 6rem;
+  
+ }
+   
+    .dropdown{
+       transform: translatex(100%); 
+       
+    }
+   
+  .dropdown-content ul{
+    list-style-type:none;
+    text-align: center;
+
+  }  
+    .dropdown-content ul li a{
+       display: block;
+       
+    }  
+
+    #newsta{
+     background-image: url('./House2.webp');
+     height: calc( 100vh - 3rem);
+     width: 100vw;
+     z-index: -10;
+     background-position: center;
+     background-repeat: no-repeat;
+      overflow-x: hidden;
+ }
+
+ }
+
+ @media screen and (min-width:630px){
+     .min-630{
+         display: none;
+     }
+ }
+
+ .log1 a{
+     color:black;
+ }
+
+
+ /* side bar..... */
+
+ .side1{
+     width:200px;
+     height:100vh;
+     background-color: #ffa931;
+    font-size: 50px;
+    position: fixed;
+ }
+
+ .side1 ul{
+     text-align: center;
+     margin-top: 100px;
+ }
+
+ .side1 ul li{
+     border-bottom: 3px solid ;
+     padding-bottom: 15px;
+ }
+
+ .icon1 i{
+     font-size: 80px;
+     border: 3px solid;
+     padding: 10px;
+     border-radius: 50%;
+ }
+
+ .sidemar{
+     margin-left: 220px;
+     margin-top: 22px;
+     margin-right: 20px;
+     
+ }
+
+ #form3 {
+     
+     width: 400px;
+     height: 70%;
+     font-size: 22px;
+     min-width:40%;
+     margin:10% auto; 
+    
+ }
+
+ #form3 fieldset{
+     background-color:rgba(181, 184, 13, 0.5);
+ }
+
+ #form3 label{
+     display: flex;
+     padding: 10px;
+ }
+
+ .classinput{
+     display: block;
+     width: 80%;
+     height: 40px;
+     margin: auto;
+     padding: 15px;
+     font-size: 15px;
+     border: 3px solid;
+     border-radius: 20px;
+    outline: none; 
+}
+
+#upl{
+    margin-left: 10%;
+}
+
+#des{
+     margin-left: 10%; 
+     padding: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+   background-color: orangered; 
+}
+
+#form3 fieldset{
+    border-radius: 30px;
+    border: 3px solid;
+    text-align: center;
+}
+

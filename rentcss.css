@@ -1,0 +1,395 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --fontfamily-head : cursive;
+    --fontfamily-body:Arial, Helvetica, sans-serif;
+    --fontsize-head:1.3rem;
+}
+
+
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontfamily-head);
+    height: 3rem;
+    background-color: yellow;
+    box-shadow: 4px 6px 8px gray;
+    position: sticky;
+    z-index: 1000;
+}
+
+.container1{
+    position: absolute;
+    left: 4%;
+    font-size: var(--fontsize-head);
+}
+
+.container3{
+    position: absolute;
+    right: 4%;
+    font-size: var(--fontsize-head);
+}
+
+.navul {
+   list-style-type: none;
+  
+}
+
+.navul li{
+    float: left;
+    padding: 1rem;
+    
+}
+
+ @media screen and (max-width:630px){
+
+    body{
+        background-image: url(./House2.webp);
+        background-size: initial;
+        background-repeat: no-repeat;
+    
+    }
+   .container1,.container3 {
+       display: none;
+   }
+
+   .container2{
+       position: absolute;
+       left:10%;
+   }
+
+ #butmen{
+     margin-top: 5.5rem;
+   background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+   width: 6rem;
+  
+ }
+   
+    .dropdown{
+       transform: translatex(100%); 
+       
+    }
+   
+  .dropdown-content ul{
+    list-style-type:none;
+    text-align: center;
+
+  }  
+    .dropdown-content ul li a{
+       display: block;
+       
+    }  
+
+    #newsta{
+     background-image: url('./House2.webp');
+     height: calc( 100vh - 3rem);
+     width: 100vw;
+     z-index: -10;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ }
+
+ @media screen and (min-width:630px){
+     .min-630{
+         display: none;
+     }
+ }
+
+
+ /* head is over */
+
+ #newsta{
+     background-image:url('./House2.webp') ,linear-gradient(rgba(196, 167, 167, 0.2),rgba(0,0,0,0.2));
+     height: calc( 100vh - 3rem);
+     width: 100vw;
+     z-index: -100;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .form1{
+     position: relative;
+     width: 380px;
+     height: 480px;
+     background-color: white;
+     margin: auto;
+     transform: translateY(15%);
+     transform: translateX(-1000%);
+      box-shadow: 4px 10px 10px rgb(22, 16, 16);
+      padding: 5px;
+
+     transition: transform 1s; 
+ }
+
+ .btnsha{
+     width:230px;
+     margin: 20px auto;
+     position: relative;
+     height: 35px;
+     box-shadow: 0px  0px 10px 9px #ff61241f;
+     border-radius: 30px;
+ }
+
+ .togglebtn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    position: relative;
+    border: 0;
+    font-size: 14px;
+   
+ }
+
+ .out{
+     background-image: linear-gradient(#ff105f,#ffad06);
+     width: 120px;
+     border-radius: 30px;
+     transition: 2s display;
+ }
+
+ 
+
+/* .out{
+    background-image: linear-gradient(#ff105f,#ffad06);
+     width: 120px;
+     border-radius: 30px;
+     
+} */
+
+ .input-group{
+     top:5%;
+     /* position: absolute; */
+     width: 280px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .input-field{
+     /* display: inline-flex; */
+     position: relative;
+     width: 100%;
+     padding: 10px;
+     border-radius: 30px;
+     outline: none;
+     margin: 10px 60px;
+     font-size: 20px;
+     cursor: pointer;
+     border: 3px solid;
+ }
+
+ .input-field:focus{
+     background-color: #ff105f;
+     color:black;
+     font-weight: bold;
+     box-shadow: 0px 4px 8px 6px gray;
+ }
+
+ #signup{
+     display: none;
+ }
+
+ /* .form1{
+     transform: translateX(-1000%);
+ } */
+
+ .form21{
+       transform: translate(0%,15%);
+       position: relative;
+ }
+
+.log1o{
+   background-image:linear-gradient(rgba(196, 167, 167, 0.445),rgba(0,0,0,0.2)),
+    url(./houseimage1.webp);
+  background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   z-index: 100; 
+}
+
+
+.search-bar{
+    width: 50%;
+    height: 50px;
+    /* background-color: black; */
+    position: absolute;
+    top:20% ;
+    margin-right: 25%;
+    margin-left: 25%; 
+    text-align: center;
+   transition: display 2s ease-in; 
+}
+
+.search-bar input{
+    border-radius: 30px;
+    width:65%;
+    height: 40px;
+    padding-left: 8%;
+    position: relative;
+    outline: none;
+    font-size: 20px;
+}
+
+.search-bar i{
+    position: absolute;
+    top:20%;
+    left:20%;
+    padding-right: 2%;
+   
+}
+
+/* .box23{
+    background-image: linear-gradient(rgba(180, 153, 153, 0.384) ,rgba(0,0,0,0.8));
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 5% 0%;
+
+} */
+
+.box23{
+     color: whitesmoke;
+    position: absolute;
+    margin-top: 25%;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    background-color:#968c83 ;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 5% 0%;
+}
+
+/* <-- discover section-> */
+
+
+.revie{
+   font-size: 2rem;
+    padding-top: 10px;
+   margin-bottom: 1rem;
+   text-align: center;
+}
+
+.revwidth{
+  width:300px;
+  height:400px;
+  padding: 15px;
+   text-align: center;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+  background-image: linear-gradient(rgba(180, 152, 75, 0.644),rgba(21, 172, 15, 0.767));
+}
+
+.revwidth img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+   
+}
+
+.revwidth23{
+  display: flex;
+  margin: 20px;
+}
+
+@media screen and (max-width:904px){
+    
+    #o1{
+        display: none;
+    }
+
+} 
+
+@media screen and (max-width:658px){
+    
+    #o2{
+        display: none;
+    }
+
+
+} 
+
+#o1:hover{
+    box-shadow: 10px 8px 15px grey;
+}
+
+#o2:hover{
+    box-shadow: 10px 8px 15px grey;
+}
+
+#o3:hover{
+    box-shadow: 10px 8px 15px grey;
+}
+
+#rightarrow{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+#leftarrow{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+
+.dis1{
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0.4), rgba(255,0,0,0.8)); */
+    padding: 10px;
+    margin-top: 30px;
+   background-image: #d9e4dd; 
+   height: 560px; 
+}
+
+.user1{
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* <--discover section over-> */
+/* what we do */
+
+.abo1{
+    background-image: url("./work4.webp") ;
+   width: 100%; 
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index:100;
+  
+}
+
+.abo1 p{
+    width:40%;
+    height: 100%;
+    margin:  auto;   
+    padding-top: 7%; 
+    color:white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder; 
+}
