@@ -129,9 +129,24 @@
     
     <section class="abo">
         <div class="abo1">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptas magnam omnis. Nisi numquam in sed ea cumque! Quos eligendi excepturi alias? Similique cumque eligendi, non facilis dolorem possimus officia perspiciatis ratione pariatur voluptatibus, nostrum repudiandae. Nobis, accusantium? Ut in, minus </p>
+            <h1>What we do</h1>
+              <p> Our site helps you find the best property available in your budget and and fulfilling all your needs in almost no time and that too without any brokerage if you are one of our top customers. We believe in building a strong relationship with our customers and expect full cooperation and trust on us.</p>
         </div>
           
+    </section>
+
+    <!-- about us -->
+      <section class="aboti12">
+         <div class="about234">
+            <h1> About us</h1> 
+              <p>This site is create by Dipankur Lawaria and Anshu Jaiswal. We are currently pursuing bachelors in Computer Engineering from Delhi Technological University. Our intent behind this site is to help people get acquainted much more with the internet and technological stuff in terms of property dealing to save them their hard earned money to going to manipulative brokers and let them choose from a wide variety of choices.
+            
+               </p>
+            <p style="padding-top:30px">
+               rights reserved to anshu And deepankar
+                   &copy; 2010-<?php echo date("Y");?>
+            </p>    
+         </div>
     </section>
 
 

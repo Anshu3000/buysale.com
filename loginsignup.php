@@ -7,7 +7,7 @@
         $use1=$_POST['useremail1'];
         $pass1=$_POST['enpassw'];
          $sqli=" INSERT INTO userlogin (email1 ,	pass1 ) VALUES ( '$use1' , '$pass1') " ;
-      echo $use1.$pass1; 
+     // echo $use1.$pass1; 
      if(mysqli_query($conn1,$sqli)){
           echo  '<script>alert("insertion successful");
            

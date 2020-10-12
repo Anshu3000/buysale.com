@@ -61,7 +61,7 @@
          <div class="sidemar">
             
             <div id="form3">
-                <form action="" method="POST"enctype="multipart/form-data">
+                <form action="imageinsertion1.php" method="POST"enctype="multipart/form-data">
                 <fieldset>
                     <legend>SALE POST FORM</legend>
                    <label for="upl">upload a property image :</label>  
@@ -74,7 +74,7 @@
                  <input type="text" name="locat" id="loc" class="classinput" placeholder="Enter the full address" required>
                  
                 <label for="sta">Enter the State:</label>
-                <input type="text" name="state" id="sta" class="classinput" placeholder="Enter the state" required>
+                <input type="text" name="state1" id="sta" class="classinput" placeholder="Enter the state" required>
                 
                 <label for="tel">Enter the telephone number :</label>
                 <input type="number" name="telno" id="tel" class="classinput"  placeholder="Enter the telephone number" required> 
@@ -82,19 +82,28 @@
                 <label for="ema">Enter the email :</label>
                 <input type="email" name="emal1" id="ema" class="classinput" placeholder="Enter the email" required>
                 
-                <label for="pri">Enter the price number :</label>
-                <input type="number" class="classinput"  name="pric" id="tel" placeholder="Enter the price" required>
+                <label for="pri1">Enter the price number :</label>
+         <input type="text"   name="price2" id="pri1" class="classinput" placeholder="Enter the price" required>
                  
                <input type="submit" class="classinput" name="sum1" value="submit">
                 </fieldset>
              </form>
             </div>
-            
+ <!-- <?php print_r($_FILES['fileim']); 
+       print_r( $_FILES['fileim']['name']);
+    
+    print($_FILES["fileim"]["tmp_name"]);
+
+   $fol1="imag1/".$_FILES['fileim']['name']  ;
+   $temn=$_FILES["fileim"]["tmp_name"];
+   move_uploaded_file($temn,$fol1);
+     ?> -->
          </div>
 
      </section>
 
-    
+  
+
     <script src="rentjs21.js">
     </script>
 </body>

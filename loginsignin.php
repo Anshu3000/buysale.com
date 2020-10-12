@@ -11,7 +11,8 @@
     
         if(mysqli_num_rows($res1)>0){
             echo '<script>alert("login succesfull");
-            window.location="index2.php"
+            window.location="index2.php";
+            
             </script>';
         
         }else{

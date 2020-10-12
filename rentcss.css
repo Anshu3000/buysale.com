@@ -301,7 +301,9 @@ a{
   font-size: 18px;
   font-weight: bold;
   font-family: cursive;
-  background-image: linear-gradient(rgba(180, 152, 75, 0.644),rgba(21, 172, 15, 0.767));
+  /* background-image: linear-gradient(rgba(180, 152, 75, 0.644),rgba(21, 172, 15, 0.767)); */
+ background-image: linear-gradient(#fcdada,#ffa5a5);
+
 }
 
 .revwidth img{
@@ -313,6 +315,7 @@ a{
 .revwidth23{
   display: flex;
   margin: 20px;
+  background-color: #e8ffff;
 }
 
 @media screen and (max-width:904px){
@@ -361,7 +364,7 @@ a{
     /* background-image: linear-gradient(to right, rgba(255,0,0,0.4), rgba(255,0,0,0.8)); */
     padding: 10px;
     margin-top: 30px;
-   background-image: #d9e4dd; 
+   background-color: #e8ffff; 
    height: 560px; 
 }
 
@@ -392,4 +395,38 @@ a{
     font-size: 22px;
     font-style: italic;
     font-weight: bolder; 
+}
+
+.abo1 h1{
+    width:100%;
+    color:black;
+    font-size: 35px;
+    padding-top: 5%;
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder; 
+}
+
+
+/* abouttu s */
+
+.aboti12{
+   width:100%;
+   background-color: #e8ffff;
+  height: 30%; 
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder; 
+}
+
+.about234 {
+    padding: 2.5rem;
+
+}
+
+.about234 h1{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
 }
