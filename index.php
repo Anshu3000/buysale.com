@@ -55,9 +55,11 @@
       
     <section class="search-bar">
        <div class="box1">
+       <!-- <form> -->
         <input type="search" name="search" placeholder="Search by location"
-                 id="sea123">
+                 id="sea123" onchange="sear1(this.value)">
                 <i  class="fa fa-search" aria-hidden="true"></i> 
+          <!-- </form>         -->
        </div>     
          <div class="box23">
            <p>Enjoy Living in your  Dream Home</p>
@@ -149,6 +151,12 @@
          </div>
     </section>
 
+    <script>
+      function sear1(val) {
+        //   alert("value you want to send "+val);
+         window.location.href ="http://localhost/college_project/searc123.php?sea="+val;  
+      }
+   </script>
 
     <script src="./rentjs.js">
     </script>

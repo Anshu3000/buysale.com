@@ -20,7 +20,7 @@
 <!-- visible when screen width less then630 using media  -->
 <div class="min-630">
     <div class="dropdown">
-        <p id="butmen">Menu</p>
+        <!-- <p id="butmen">Menu</p>
         <div class="dropdown-content">
             <ul>
                 <li><a href="">Menu</a></li>
@@ -28,7 +28,7 @@
                 <li><a href="">sell</a></li>
                 <li><a href="">Rent</a></li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </div>
     </section>

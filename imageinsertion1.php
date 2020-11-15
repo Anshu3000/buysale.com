@@ -6,7 +6,7 @@
        
         $fol1="imag1/".$_FILES['fileim']['name']  ;
         $temn=$_FILES["fileim"]["tmp_name"];
-          move_uploaded_file($temn,$fol1);
+        move_uploaded_file($temn,$fol1);
 
          $despr=$_POST['comm'];
          $loc1=$_POST['locat'];
@@ -38,6 +38,8 @@
          
      } else{
          echo  '<script>alert("isset problem successful");</script>';
+       
+
     
     }
 

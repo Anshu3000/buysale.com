@@ -6,6 +6,7 @@ function get1id(elem) {
     return document.getElementById(elem);
 }
 
+
 console.log(54);
 
 var signup1 = get1class("up");
